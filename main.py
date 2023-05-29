@@ -16,7 +16,7 @@ label4 = Label(text="Miles")
 label4.grid(column=2, row=0)
 
 
-# click action
+# button action
 def clicked():
     global entry
     miles = float(entry.get())
